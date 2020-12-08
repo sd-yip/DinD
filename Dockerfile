@@ -1,4 +1,5 @@
 FROM alpine:3.12.1
+ENV DOCKER_CLI_EXPERIMENTAL enabled
 RUN apk add --no-cache docker-cli=19.03.12-r0
 
 RUN set -e;\
